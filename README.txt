@@ -1,2 +1,2 @@
 This our first GitHub collaboration.
-London Aquatics Centre Use Improvement Prototype
+We're making an AWESOME website for this project.
