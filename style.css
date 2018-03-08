@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(-45deg, #B3B0F8, #F6F6FF);
+  margin: 20px;
+  padding: 10px;
+  color: #090647;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 36px;
+  text-align: center;
+  /*border: 3px solid black;*/
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 32px;
+  border-bottom: 2px solid black;
+}
+
+table, th {
+  /*background: linear-gradient(60deg, #CEC0F8, #B09AF2);*/
+  margin: 3px;
+  padding: 10px;
+}
+
+td {padding: 5px;}
+
+
+#social {width: 15%;}
+#tablee {display:inline-block;margin-right:15px;}
+#violin {display:inline-block;}

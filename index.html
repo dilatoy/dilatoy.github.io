@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<!-- ToDo:
+Domain Name
+
+Social Buttons
+Interactive elements (don't need to be functional :') i.e. visual)
+    Google Analytics (website performance): https://analytics.google.com
+    APIs
+Responsiveness
+-->
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- to be responsive to mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Our super cool webpage</title>
+    <!-- CSS libraries -->
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1>CodeFirst: Girls - Group Project</h1>
+
+      <!-- Everything done in the course so far -->
+      <h2>What we've learnt so far</h2>
+      <div id="learnt">
+        <p><ul>
+          <li>How to write the contents of a website
+            with <a href="https://www.w3schools.com/html/"><abbr title="HyperText Markup Language">HTML</abbr></a></li>
+            <li>Styling webpages using <a href="https://css-tricks.com/"><abbr title="Cascaded StyleSheet">CSS</abbr></a></li>
+            <li>Collaborating on a project with <kbd>GitHub</kbd> & <kbd>Git</kbd></li>
+            <li>How to save time when styling using <em>Twitter Bootstrap</em></li>
+            <li>Making webpages more dynamic with <code>JavaScript</code> and <code>jQuery</code></li>
+          </ul> </p>
+      </div>
+
+      <!-- Who we are -->
+      <h2>Our team members</h2>
+      <div id="us">
+        <p>We have three super cool engineers (2 Elec, 1 Mech) working
+          on this project with immense excitement about learning to make
+          a website ^.^ This page <em>will be</em> made slightly more interesting
+          once we are all less occupied with scenarios and projects...<br> To find
+          out more about us, check us our <a href="pages/about-us.html">About us</a> page.
+      </div>
+
+      <!-- Random info to show off our skills-->
+      <h2>Until we all get together</h2>
+      <div id="music">
+        <p>Just to demo some of the really cool things we've learnt (and to show
+          how awsome and unbeievably convenient Cootstrap is), this section
+          will be composed of many random bits and pieces, like the following table
+          that is absolutely full of random stuff (and I'm totally not promoting our
+          upcoming concert on the 9th XD):</p>
+
+        <!-- Table that is totally not promoting the concert -->
+        <table class="table-hover table-bordered" id="tablee">
+          <tr>
+                  <th>Repertoire</th>
+                  <th>Composer</th>
+                  <th>Date</th>
+                  <th>Reason why it kicks ass</th>
+                </tr>
+          <tr>
+                  <td><a href="https://www.youtube.com/watch?v=OPfxfO4NG1E">Holberg Suite, Op. 40</a></td>
+                  <td>Edward Gried</td>
+                  <td>1884</td>
+                  <td>Written to celebrate 200th anniversary of the birth of Ludwig Holberg</td>
+                </tr>
+          <tr>
+                  <td><a href="https://www.youtube.com/watch?v=_S0tFb29kFI">Brook Green Suite</a></td>
+                  <td>Gustave Holst</td>
+                  <td>1993</td>
+                  <td>Holst wrote the suite while in hospital in the year before he died</td>
+                </tr>
+          <tr>
+                  <td><a href="https://www.youtube.com/watch?v=_4pqLqmHkx4">Christmas Concerto</a></td>
+                  <td>Arcangelo Corell</td>
+                  <td>1714</td>
+                  <td>Commissioned by Cardinal Pietro Ottoboni (just pretend you know him)</td>
+                </tr>
+        </table>
+        <img id="violin" src="img/violin.png" alt="UCL String Orchestra Rocks!"><br>
+
+        <!-- Google Forms -->
+        <h4>Disagree with any of the above, or think there's anything missing? Let up know below:</h4><br>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZhfxG0dp-yR2Y7wic4_LZS-vMl5h3XIu3q-85wwu8cTPpOA/viewform?embedded=true"
+        width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe><br>
+      </div>
+
+
+      <!-- Suggestions box + button -->
+      <p>If you would like to suggest or request a webpage idea, or if you think this webpage sucks...</p>
+      <div id="social">
+            <label for="email">Let us know here!</label>
+            <input type="text" class='form-control' name="email" placeholder="Enter your email" >
+            <button type="submit" class='btn btn-primary disabled'>Send</button>
+      </div><br><br>
+
+      <!-- Dropdown -->
+      <div class="dropdown">
+        Check out this random dropdown :')
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">My fav composers
+          <span class="caret"></span></button> <!-- creates the icon that indicates it's a DD-->
+          <ul class="dropdown-menu">
+            <li><a href="#">Saint-Saëns</a></li>
+            <li><a href="#">Dvořák</a></li>
+            <li><a href="#">Beethoven</a></li>
+          </ul>
+        </div><br><br>
+
+        <button data-toggle="collapse" data-target="#demo">Touch me</button>
+
+        <div id="demo" class="collapse">
+          Lorem ipsum dolor text....
+        </div><br><br>
+
+      <!-- Pagination: alt. use Breadcrumbs -->
+      Navigate to the rest of our (currently non-existent) webpages ~<br>
+      <ul class="pagination pagination-sm">
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li class="disabled"><a href="#">5</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
